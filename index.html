@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevelopGram</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" href="icon/instagram.png" type="image/icon type">
+</head>
+<body onload="render() , renderFriends() , renderMenu() , renderNewFollower()">
+    <div class="left" id="menu"></div>
+    <div class="mid">
+        <div class="content">
+            <div id="friendlist" class="friendlist"></div>
+        </div>
+        <div class="content">
+            <div id="content"></div>
+        </div>
+    </div>
+    <div class="right" id="newFollower"></div>        
+</body>
+</html>
